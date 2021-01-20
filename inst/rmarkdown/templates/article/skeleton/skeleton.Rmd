@@ -1,4 +1,4 @@
----
+n---
 title: "Basic article"
 author:
   - name: Firstname Lastname
@@ -7,13 +7,13 @@ author:
     authsuperscript: 2
 affiliation:
   - affsuperscript: 1
-    dptuniv: Department of Ecology, University of Edimburgh
+    dptuniv: Department of Ecology, University of Wonderland
     address: >
       Street address,
       Zip code,
       Country.
   - affsuperscript: 1
-    dptuniv: Department of Ecology, University of Edimburgh
+    dptuniv: Department of Ecology, University of Wonderland
     address: >
       Street address,
       Zip code,
