@@ -34,7 +34,7 @@
                 right=2cm,%
                 top=2.25cm,%
                 bottom=2.25cm,%
-                headheight=12pt,%
+                headheight=14pt,%
                 a4paper] %
                 {geometry}%
 \RequirePackage[labelfont={bf,sf},%
