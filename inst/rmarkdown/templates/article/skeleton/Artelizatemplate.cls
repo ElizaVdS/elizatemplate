@@ -1,12 +1,11 @@
 % ---------------------------------------------------------------------
 % SelfArx : Conference proceedings and article templates for
 % personal open-archiving activities
-% September 2012
-% Modifié pour les besoins de l'UMR EcoFoG (Eric Marcon)
+% January 2021
 % ---------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Artelizatemplate}[06/11/2017, v. 2.1]
+\ProvidesClass{Artelizatemplate}[21/01/2021, v. O.1]
 \RequirePackage{ifthen}
 \RequirePackage{calc}
 \AtEndOfClass{\RequirePackage{microtype}}
@@ -30,8 +29,8 @@
 
 % -------------------s--------------------------------------------------
 % margins
-\RequirePackage[left=2cm,%
-                right=2cm,%
+\RequirePackage[left=2.2cm,%
+                right=2.2cm,%
                 top=2.25cm,%
                 bottom=2.25cm,%
                 headheight=12.0pt,%
