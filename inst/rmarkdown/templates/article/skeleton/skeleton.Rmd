@@ -1,4 +1,4 @@
-n---
+---
 title: "Basic article"
 author:
   - name: Firstname Lastname
