@@ -3,4 +3,3 @@
 export(TricoterArticle)
 export(TricoterTout)
 export(article)
-import(magrittr)

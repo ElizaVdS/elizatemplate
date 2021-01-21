@@ -7,13 +7,13 @@
 article(..., md_extensions = c("-autolink_bare_uris"))
 }
 \arguments{
-\item{...}{Arguments optionnels passés à \code{\link{pdf_document}}}
+\item{...}{Optional arguments passed to \code{\link{pdf_document}}}
 
-\item{md_extensions}{Extensions markdodown, cf. \code{\link{pdf_document}}}
+\item{md_extensions}{Markdodown extensions, cf. \code{\link{pdf_document}}}
 }
 \description{
-Formatage d'un article pour l'auto-archivage
+Formatting an article for self-archiving
 }
 \details{
-La fonction est appelée par le modèle Markdown article
+The fonction is called by the Markdown model Basic article
 }

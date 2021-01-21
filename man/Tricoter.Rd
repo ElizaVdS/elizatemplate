@@ -11,11 +11,11 @@ TricoterTout(destination = "docs")
 TricoterArticle(destination = "docs")
 }
 \arguments{
-\item{destination}{Dossier de destination des documents}
+\item{destination}{Destination file of the documents}
 }
 \description{
-Création des tous les documents à partir des modèles
+Creating all documents from the models
 }
 \details{
-Utilisé pour vérifier le bon fonctionnement des modèles
+Used to verify that the models function well
 }
