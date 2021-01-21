@@ -4,13 +4,13 @@
 #'
 #' @name elizatemplate
 #' @docType package
-#' @import magrittr
+
 NULL
 
 
-# Fonctions internes
-#  Utilitaires pour article() et memo()
-#  Largement inspirées du package rticles
+#  Internal functions
+#  Utilities for article() and memo()
+#  Largely inspired from the rticles package
 #' @keywords internal
 find_file <- function (template, file) {
   template <- system.file("rmarkdown", "templates", template, file, package="elizatemplate")
@@ -32,12 +32,12 @@ inherit_pdf_document <- function (...) {
 
 #' Article
 #'
-#' Formatage d'un article pour l'auto-archivage
+#' Formatting an article for self-archiving
 #'
-#' La fonction est appelée par le modèle Markdown article
+#' The fonction is called by the Markdown model Basic article
 #'
-#' @param ... Arguments optionnels passés à \code{\link{pdf_document}}
-#' @param md_extensions Extensions markdodown, cf. \code{\link{pdf_document}}
+#' @param ... Optional arguments passed to \code{\link{pdf_document}}
+#' @param md_extensions Markdodown extensions, cf. \code{\link{pdf_document}}
 #'
 #' @export
 article <- function (..., md_extensions=c("-autolink_bare_uris")) {
@@ -48,11 +48,11 @@ article <- function (..., md_extensions=c("-autolink_bare_uris")) {
 
 #' Tricoter
 #'
-#' Création des tous les documents à partir des modèles
+#' Creating all documents from the models
 #'
-#' Utilisé pour vérifier le bon fonctionnement des modèles
+#' Used to verify that the models function well
 #'
-#' @param destination Dossier de destination des documents
+#' @param destination Destination file of the documents
 #'
 #' @name Tricoter
 NULL
